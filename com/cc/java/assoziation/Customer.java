@@ -10,15 +10,17 @@ public class Customer {
     private String city;
 
     private Order order;
-
+ 
     public Customer(int id, String name, String city) {
         this.id = id;
         this.name = name;
         this.city = city;
+   //     Helper.output(this);
     }
 
     /** Assoziation */
     public void initOrder() {
+        Helper.output(this);
         // Referenz auf erzeugtes Objekt im Heap
         order = new Order(1, "repair", this);
     }

@@ -6,7 +6,7 @@ public class Helper {
         System.out.println(outputData);  
     }
 
-    // Überladene Methode
+  // Überladene Methode
     public static void output(int outputData){
         System.out.println(outputData);
     }
